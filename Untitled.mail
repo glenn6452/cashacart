@@ -1,0 +1,59 @@
+Content-Type: multipart/mixed; boundary="===============2486705497784894277=="
+MIME-Version: 1.0
+Subject: Untitled
+
+--===============2486705497784894277==
+Content-Type: text/html; charset="us-ascii"
+MIME-Version: 1.0
+Content-Transfer-Encoding: 7bit
+
+
+
+<!--
+python
+import pandas as pd
+import sqlalchemy as sql
+import seaborn as sns
+import matplotlib.pyplot as plt
+import numpy as np
+import scipy as sp
+import plotly.plotly as py
+
+import plotly 
+plotly.tools.set_credentials_file(username='glennoriente', api_key='8pgcOKZBgxhhL9Iii59M')
+-->
+
+
+<!--
+python
+connect_string = 'mysql://cashacart_monitor:aabb1122@prod-rep3.cfti8umsjnvm.ap-southeast-1.rds.amazonaws.com/trade'
+sql_engine = sql.create_engine(connect_string)
+-->
+
+
+<!--
+python
+query = open('cashacart.sql','r')
+-->
+
+
+<!--
+python
+df = pd.read_sql_query(query.read(), sql_engine)
+-->
+
+
+<!--
+python
+import plotly.plotly as py
+import plotly.figure_factory as ff
+import pandas as pd
+-->
+
+
+<!--
+python
+
+-->
+
+--===============2486705497784894277==--
