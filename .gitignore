@@ -1,5 +1,0 @@
-$ git rm --cached config.py
-*.py
-*.sql
-*.mail
-*.vbs
