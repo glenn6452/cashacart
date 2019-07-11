@@ -1,0 +1,1 @@
+jupyter nbconvert --config config.py analysis.ipynb
